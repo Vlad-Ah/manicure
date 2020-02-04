@@ -1,0 +1,91 @@
+body {
+  min-width: 320px;
+  font-size: 16px;
+  font-family: "Fira Sans", sans-serif;
+  color: #626265;
+  background-color: #c5f2e6;
+  padding: 4em;
+  background-image: linear-gradient(
+    180deg,
+    rgb(254, 255, 255) 0%,
+    #c5f2e6 60%,
+    #78e6d0 99%
+  );
+  background-size: 200%;
+}
+.fixed-top {
+  width: 100%;
+  background-color: #78e6d0;
+}
+.block {
+  height: 86px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  color: rgb(69, 111, 226);
+}
+a:hover {
+  color: #ba93df;
+}
+header {
+  background-color: #78e6d0;
+}
+.navbar-toggler {
+  border-color: rgb(250, 235, 239);
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250, 235, 239, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-brand:hover {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: rgb(69, 111, 226);
+}
+.navbar-brand {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+/* underline animation */
+.nav-item::after {
+  content: "";
+  display: block;
+  widows: 100%;
+  background-color: #ba93df;
+  height: 1px;
+  transform: scale(0);
+  transition: all 0.3s;
+}
+.nav-item:hover::after {
+  transform: scale(1);
+}
+.heading {
+  margin: 50px 0 30px 0;
+  display: flex;
+  justify-content: center;
+}
+.ava-img {
+  max-width: 220px;
+  margin-bottom: 30px;
+  padding-right: 30px;
+}
+.ava {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.text {
+  max-width: 700px;
+}
+.italic {
+  font-style: italic;
+  font-weight: 300;
+}
+.icon {
+  max-width: 25px;
+  margin-right: 15px;
+}
+.madeby {
+  font-size: 8px;
+}
