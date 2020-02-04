@@ -89,6 +89,8 @@ header {
 .madeby {
   font-size: 8px;
 }
+
+
 @media (max-width: 1094px), { .ava-img {
   max-width: 220px;
   padding-bottom: 30px;
